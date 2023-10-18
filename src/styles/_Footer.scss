@@ -1,0 +1,118 @@
+@import "../styles/Variables/Variables";
+
+@media screen and (min-width: 320px){
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .contactTitle{
+        font-family: 'Playfair Display';
+        font-size: 50px;
+        font-weight: 200;
+        line-height: 60px;
+        margin-bottom: 20px;
+        color: $color-thirdary;
+    }
+    .footer p{
+        color: $color_thirdary;
+        margin-bottom: 10px;
+        font-weight: 500;
+        line-height: 120%;
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    .footer form{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .footer span{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+   .input{
+    width: 100%;
+    height: 38px;
+    color: #333;
+    //vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block;
+   }
+   .submit{
+        color: white;
+        border-radius: 5px;
+        border: 1px solid $color_thirdary;
+        background-color: $color_thirdary;
+        width: 100%;
+        padding: 8px 12px;
+   }
+
+   .mentions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10px;
+    background-color: $color_thirdary;
+    color: white;
+    width: 100%;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer span{
+    width: 100%;
+    
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    line-height: 20%;
+}
+    
+    }
+
+    @media screen and (min-width: 768px){
+        
+        .mentions{
+            flex-direction: row;
+        }
+        .footerLinks{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+        }
+        .footer span{
+            width: 100%;
+            
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            width: 50%;
+        }
+        .adress{
+            width: 50%;
+        }
+    }

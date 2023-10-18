@@ -1,0 +1,41 @@
+@import "../styles/Variables/Variables";
+
+@media screen and (min-width: 320px){
+
+    .MenuBanner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        background-color: burlywood;
+        color: aliceblue;
+        font-family: Noto ;
+        font-size: 24px;
+    }
+    .MenuContainer{
+        margin:50px;
+    }
+    .MenuList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .productcatName{
+        color: $color_thirdary;
+        font-family: Noto ;
+        font-size: 40px;
+        margin-top: 20px;
+        
+    }
+    
+    }
+
+    @media screen and (min-width: 768px){
+
+        .MenuList{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }

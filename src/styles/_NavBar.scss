@@ -1,0 +1,53 @@
+@import "../styles/Variables/Variables";
+
+@media screen and (min-width: 320px){
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1px 50px;
+        position: relative;
+        align-items: center;
+        background-color: $color-primary;
+        
+    }
+    .buttonnav{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .navlinks{
+        display: none;
+        gap: 15px;
+        color: $color-secondary;
+    }
+}
+
+    @media screen and (min-width: 768px){
+
+
+    .navlinks{
+        display: flex;
+        gap: 15px;
+        color: $color-secondary;
+        flex: 1 1 0%;
+    }
+    .buttonnav{
+        display: none;
+    }
+    .navbarMenu{
+        display: none;
+    }
+    }
+
+@media screen and (min-width: 768px){
+
+    .navlinks{
+        flex-direction: row-reverse;
+    }
+    
+}

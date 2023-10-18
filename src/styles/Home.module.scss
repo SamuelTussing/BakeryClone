@@ -1,0 +1,28 @@
+@import "./Header";
+@import "./NavBar";
+@import "./Variables/Variables";
+@import "./Menu";
+@import "./Slider";
+@import "./Featured";
+@import "./Offer";
+@import "./Footer";
+@import "./MenuPage";
+@import "./Product";
+@import "./Apropos";
+
+@media screen and (min-width: 320px){
+
+  .fonts{
+    font-family: 'Noto Serif', 'Lato';
+  }
+
+
+    
+.container{
+  background-color: aliceblue;
+  color: white;
+  font-size: 50px;
+  font-family: 'Noto Serif';
+}
+
+}

@@ -1,0 +1,59 @@
+@import "../styles/Variables/Variables";
+
+@media screen and (min-width: 320px){
+
+    .OfferContainer{
+        background-color: $color-primary;
+        animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) 2.6s both
+    }
+
+    @keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+    .button{
+        padding: 10px;
+        color: $color_thirdary;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid $color_thirdary;
+        background-color: rgba(0,0,0,0);
+        max-width: 80%;
+        align-self: center;
+    }
+
+    .picContainer{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .portrait{
+        border-radius: 15px;
+    }
+
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+    .aboutContainer p{
+        color: $color_thirdary;
+    }
+
+    .aboutTitle{
+        color: $color_thirdary;
+        margin: 10px;
+        font-weight: 500;
+        line-height: 120%;
+        font-size: 45px;
+        align-self: center;
+    }
+    
+    }
+
+@media screen and (min-width: 768px){
+
+        .OfferContainer{
+        display: flex;
+        padding: 15px;
+    }
+        
+    }
